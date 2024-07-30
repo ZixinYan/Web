@@ -11,7 +11,7 @@ import java.io.FileInputStream;
 import java.io.InputStream;
 
 public class AliOSSUtils {
-    private static final String ENDPOINT = "https://oss-cn-beijing.aliyuncs.com";//你的阿里云网站
+    private static final String ENDPOINT = "";//你的阿里云网站
     // 从环境变量中获取访问凭证。运行本代码示例之前，请确保已设置环境变量OSS_ACCESS_KEY_ID和OSS_ACCESS_KEY_SECRET。
     //EnvironmentVariableCredentialsProvider credentialsProvider = CredentialsProviderFactory.newEnvironmentVariableCredentialsProvider();
     private static final String ACCESS_KEY_ID="KeyId";//阿里云上获得的密钥id和密钥
